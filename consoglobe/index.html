@@ -3,11 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title>page d'accueil consoglobe</title>
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<header>
+		<nav>
+			<ul class="nav navbar-nav" id="menu-deroulant">
+				<li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>INFORMATIONS</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>BOUTIQUE</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>TROC, DON, LOCATION, ENTRAIDE ...<span class="caret"></span></a>
+					<ul id="sous-menu-deroulant">
+						<li><a href="#"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>ECHANGE</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>OCCASION</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>LOCATION</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>DON</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-link" aria-hidden="true"></span>ENTRAIDE</a></li>						
+					</ul>				
+				</li>
+			</ul>
+			<ul>
+			 	<li class="nav navbar-nav navbar-right"><input type="button" onclick="alert('voici la page mon compte')" id="bouton-mon-compte" class="form-control" value="MON COMPTE"></li>			
+				<li class="nav navbar-nav navbar-right">
+					<form class="navbar-form navbar-right" role="search">
+			        <div class="form-group" >
+					<input type="text" class="form-control" placeholder="Rechercher sur Consoglobe">
+			        </div>
+			        <button type="submit" class="form-control" class="glyphicon glyphicon glyphicon-search"></button>
+			    	</form>			  
+				</li>
 
-	
+			</ul> 
+		</nav>
+
+
+	</header>
+
 </body>
 </html>
